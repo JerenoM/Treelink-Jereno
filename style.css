@@ -1,0 +1,132 @@
+img{
+  border-radius: 0 75px 0 75px;
+  margin: 20px;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0; /* verwijdert witruimte van de browser */
+  min-height: 100vh; 
+  background: linear-gradient(to bottom, #8000ff, #000000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+a{background-color: white;
+font-size: 20px;
+border-radius: 10px;
+padding: 10px;
+display: block;
+text-align: center;
+margin: 10px;
+color: slateblue;
+}
+
+.github {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;  
+  
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden; 
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.github img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.github:hover {
+  border-color: #4078c0;
+  background-color: #f6f8fa;
+  box-shadow: 0 0 10px rgba(64, 120, 192, 0.5); 
+}
+
+
+.github:hover img {
+  opacity: 0.8;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
+.kon {
+  display: inline-flex; 
+  align-items: center;    
+  justify-content: center; 
+  
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden; 
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.kon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kon:hover {
+  border-color: #4078c0;
+  background-color: #f6f8fa;
+  box-shadow: 0 0 10px rgba(64, 120, 192, 0.5); 
+}
+.kon:hover img {
+  opacity: 0.8;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+.contact {
+  display: inline-flex; 
+  align-items: center;    
+  justify-content: center; 
+  
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden; 
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.contact img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact:hover {
+  border-color: #4078c0;
+  background-color: #01080f;
+  box-shadow: 0 0 10px rgba(64, 120, 192, 0.5); 
+}
+
+.contact:hover img {
+  opacity: 0.8;
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
